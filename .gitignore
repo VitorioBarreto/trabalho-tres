@@ -1,45 +1,66 @@
-#Maven
-target/
+# === Java ===
+# Compiled class files
+*.class
+
+# Logs & diagnostics
+*.log
+*.hprof
+hs_err_pid*
+replay_pid*
+
+# Package archives (generated)
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+
+# === Maven ===
+# Build output
+/target/
+
+# Maven release / versioning backups
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
+pom.xml.next
 release.properties
-.flattened-pom.xml
 
-# Eclipse
-.project
-.classpath
-.settings/
-bin/
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
 
-# IntelliJ
-.idea
-*.ipr
-*.iml
-*.iws
+# Keep Maven Wrapper in the repo (do NOT ignore)
+# mvnw
+# mvnw.cmd
+# .mvn/wrapper/maven-wrapper.jar
+# .mvn/wrapper/maven-wrapper.properties
 
-# NetBeans
-nb-configuration.xml
 
-# Visual Studio Code
-.vscode
-.factorypath
+# === Visual Studio Code ===
+.vscode/*
+!.vscode/extensions.json   # allow sharing recommended extensions
+# Uncomment the next line if you want to keep shared workspace settings
+# !.vscode/settings.json
 
-# OSX
-.DS_Store
 
-# Vim
-*.swp
-*.swo
+# === Linux / editor temp files ===
+# Editor swap/backup files
+*~
+.*.swp
+.swp
+.swo
 
-# patch
-*.orig
-*.rej
+# FUSE & trash leftovers
+.fuse_hidden*
+.Trash-*
+.nfs*
 
-# Local environment
-.env
-
-# Plugin directory
-/.quarkus/cli/plugins/
-# TLS Certificates
-.certs/
+# === Optional: OS-specific clutter (uncomment if needed) ===
+# macOS: .DS_Store
+# .DS_Store
+# Windows: Thumbs.db
+# Thumbs.db
