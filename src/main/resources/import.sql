@@ -27,3 +27,5 @@ INSERT INTO Emprestimo (dataEmprestimo, dataDevolucao, codigo_livro, codigo_usua
 ('2024-06-02', '2024-06-12', 2, 2),
 ('2024-06-03', '2024-06-13', 3, 3),
 ('2024-06-04', '2024-06-14', 4, 4);
+('2024-06-05', '2024-06-15', 5, 5);
+
